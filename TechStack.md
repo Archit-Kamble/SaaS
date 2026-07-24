@@ -528,3 +528,27 @@ Before adding a major technology ask:
 6. Does it improve the customer experience?
 
 If these questions do not justify it, do not introduce the technology.
+
+
+## Recommended stack
+
+Layer	Smart Retail OS choice
+IDE	Android Studio
+Client	Flutter
+Client language	Dart
+State management	Riverpod
+Backend	Java 21 + Spring Boot
+Main database	PostgreSQL
+Authentication	Spring Security
+API	REST /api/v1
+API docs	OpenAPI/Swagger
+ORM	Spring Data JPA / Hibernate
+DB migrations	Flyway
+File/image storage	Object storage later
+Local Flutter storage	SharedPreferences only for simple preferences; secure storage for secrets/tokens
+PDF/printing	Flutter PDF + Printing initially
+Testing	JUnit + Spring Boot tests + Flutter tests
+Version control	Git + GitHub
+Architecture	Modular Monolith + sector extensions
+AI	Provider abstraction; provider chosen later
+Deployment	Decide later after MVP requirements
